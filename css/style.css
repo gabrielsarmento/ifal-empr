@@ -999,10 +999,20 @@ header {
 
 .team {
     position: relative;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     padding: 40px 20px;
     margin: 15px 0px;
 }
+
+.center-block {
+    float: none;
+    display: inline-block;
+    text-align: left;
+}
+.centered {
+    text-align: center;
+    font-size: 0;
+ }
 
 .team::after {
     content: "";
