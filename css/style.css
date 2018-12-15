@@ -1007,7 +1007,6 @@ header {
 .center-block {
     float: none;
     display: inline-block;
-    text-align: left;
 }
 .centered {
     text-align: center;
